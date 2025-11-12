@@ -4,6 +4,10 @@ import testimonialSlice from "../slices/testimonialsSlice";
 import faqSlice from "../slices/faqSlice";
 import navigateSlice from "../slices/navigateSlice";
 import visionSlice from "../slices/visionSlice";
+import awardsSlice from "../slices/awardsSlice";
+import teamSlice from "../slices/teamSlice";
+import featuresSlice from "../slices/featuresSlice";
+import learnSlice from "../slices/learnSlice";
 export const store = configureStore({
   reducer: {
     ben: benifitsSlice,
@@ -11,6 +15,10 @@ export const store = configureStore({
     faq: faqSlice,
     nav: navigateSlice,
     vision: visionSlice,
+    awards: awardsSlice,
+    team: teamSlice,
+    fet: featuresSlice,
+    learn: learnSlice,
   },
 });
 
