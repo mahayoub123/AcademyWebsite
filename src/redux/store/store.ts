@@ -8,6 +8,8 @@ import awardsSlice from "../slices/awardsSlice";
 import teamSlice from "../slices/teamSlice";
 import featuresSlice from "../slices/featuresSlice";
 import learnSlice from "../slices/learnSlice";
+import activitesSlice from "../slices/activitesSlice";
+import supSlice from "../slices/supSlice";
 export const store = configureStore({
   reducer: {
     ben: benifitsSlice,
@@ -19,6 +21,8 @@ export const store = configureStore({
     team: teamSlice,
     fet: featuresSlice,
     learn: learnSlice,
+    act: activitesSlice,
+    sup: supSlice,
   },
 });
 
